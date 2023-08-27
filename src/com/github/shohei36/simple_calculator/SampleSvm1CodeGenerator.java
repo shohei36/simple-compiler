@@ -1,12 +1,14 @@
-package com.github.shohei36;
+package com.github.shohei36.simple_calculator;
 
 import java.io.FileOutputStream;
 import java.io.File;
 import java.io.IOException;
 
 public class SampleSvm1CodeGenerator {
-  final static byte[][] codes = {{16, 1, 16, 2, 96, -48}, {16, 1, 16, 2, 16, 3, 104, 96, -48},
-      {16, 1, 16, 2, 96, 16, 3, 104, -48},};
+  final static byte[][] codes = {{16, 1, 16, 2, 96, -48}, // 中間記法: 1 + 2 後置記法: 1 2 +
+      {16, 1, 16, 2, 16, 3, 104, 96, -48}, // 中間記法: 1 + 2 * 3 後置記法: 1 2 3 * +
+      {16, 1, 16, 2, 96, 16, 3, 104, -48}, // 中間記法: (1 + 2) * 3 後置記法: 1 2 + 3 *
+  };
 
   public void generate() {
     for (int i = 0; i < codes.length; i++) {

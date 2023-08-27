@@ -1,4 +1,4 @@
-package com.github.shohei36;
+package com.github.shohei36.simple_calculator;
 
 import java.io.IOException;
 

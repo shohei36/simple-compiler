@@ -1,4 +1,4 @@
-package com.github.shohei36;
+package com.github.shohei36.simple_calculator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
