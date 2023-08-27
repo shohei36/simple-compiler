@@ -53,3 +53,18 @@ flowchart TD
     D --> E[5.コード生成]
     E --> OC[オブジェクトコード]
 ```
+
+# 構文木
+- leaf ... \<number\>
+- node ... \<program\>, \<expression\>, \<term\>
+```mermaid
+flowchart TD
+    main --- plus((+))
+    plus --- one[1]
+    plus --- aster((*))
+    aster --- two[2]
+    aster --- three[3]
+```
+
+# Todo
+- リファクタ

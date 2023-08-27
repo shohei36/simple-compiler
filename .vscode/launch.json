@@ -1,0 +1,74 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ScannerTest",
+            "request": "launch",
+            "mainClass": "com.github.shohei36.lexical_analysis.ScannerTest",
+            "projectName": "simple-compiler_566b0985"
+        },
+        {
+            "type": "java",
+            "name": "SimpleScannerTest",
+            "request": "launch",
+            "mainClass": "com.github.shohei36.lexical_analysis.SimpleScannerTest",
+            "projectName": "simple-compiler_566b0985"
+        },
+        {
+            "type": "java",
+            "name": "SplitScannerTest",
+            "request": "launch",
+            "mainClass": "com.github.shohei36.lexical_analysis.SplitScannerTest",
+            "projectName": "simple-compiler_566b0985"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.github.shohei36.simple_calculator.Main",
+            "projectName": "simple-compiler_566b0985"
+        },
+        {
+            "type": "java",
+            "name": "SampleSvm1CodeGenerator",
+            "request": "launch",
+            "mainClass": "com.github.shohei36.simple_calculator.SampleSvm1CodeGenerator",
+            "projectName": "simple-compiler_566b0985"
+        },
+        {
+            "type": "java",
+            "name": "SampleSvm1CodeGenerator(1)",
+            "request": "launch",
+            "mainClass": "com.github.shohei36.syntax_tree.SampleSvm1CodeGenerator",
+            "projectName": "simple-compiler_566b0985"
+        },
+        {
+            "type": "java",
+            "name": "Svm1",
+            "request": "launch",
+            "mainClass": "com.github.shohei36.syntax_tree.Svm1",
+            "projectName": "simple-compiler_566b0985"
+        },
+        {
+            "type": "java",
+            "name": "Svm1c",
+            "request": "launch",
+            "mainClass": "com.github.shohei36.syntax_tree.Svm1c",
+            "projectName": "simple-compiler_566b0985",
+            "classPaths": [
+                "${workspaceFolder}/classes",
+            ],
+            "args": "01.s1s"
+        }
+    ]
+}
